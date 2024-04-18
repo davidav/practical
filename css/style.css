@@ -15,11 +15,27 @@ a {
 
 img {
 	max-width: 100%;
+  margin-bottom: 40px;
 }
+
 
 body {
 	font-family: 'font', sans-serif;
 }
+
+figure {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+figure img {
+  margin-bottom: 0;
+}
+
+figcaption {
+  width: 873px;
+}
+
 
 .wrapper {
   display: flex;
@@ -55,25 +71,41 @@ body {
   width: 1170px;
   }
 
-.title-main{
+.title-main {
   margin-top: 0;
   margin-bottom: 40px;
 }
 
-.title{
-
+.title {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-.text{
+.text {
   width: 872px;
   margin-top: 0;
   margin-bottom: 40px;
 }
 
-.gray-box{
+.gray-box {
   border-radius: 20px;
   padding: 30px;
   background-color: #f3f3f3;
+}
+
+.gray-box:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.gray-box .text {
+  width: 692px;
+  margin-bottom: 10px;
+  }
+
+.content {
+  padding-left: 15px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
 }
