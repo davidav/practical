@@ -71,12 +71,17 @@ figcaption {
   width: 1170px;
   }
 
-.title-main {
+.title {
   margin-top: 0;
   margin-bottom: 40px;
 }
 
-.title {
+.second-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.third-title {
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -102,7 +107,7 @@ figcaption {
   margin-bottom: 10px;
   }
 
-.content {
+.principles-list {
   padding-left: 15px;
 }
 
