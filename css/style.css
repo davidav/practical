@@ -15,12 +15,30 @@ a {
 
 img {
 	max-width: 100%;
-  margin-bottom: 40px;
 }
 
 
 body {
   font-family: Arial, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  /* line-height: 0; */
+}
+
+li {
+
+}
+
+h1 {
+  margin: 0;
+}
+
+.img-margin-botom {
+  margin-bottom: 40px;
 }
 
 .figure {
@@ -29,9 +47,6 @@ body {
   font-size: 0;
 }
 
-.figure img {
-  margin-bottom: 0;
-}
 
 .figcaption {
   width: 873px;
@@ -169,20 +184,133 @@ body {
 
 }
 
-.item-link {
+.principles-list-item-link {
   border-bottom: 1px solid #3f2aff;
   font-size: 20px;
   color: #3f2aff;
 }
 
-.item:not(:last-child) {
+.principles-list-item:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.item::marker {
+.principles-list-item::marker {
   color: #3f2aff;
 }
 
 .container {
+  width: 1170px;
   margin: 0 auto;
+  padding-top: 50px;
+
+}
+
+.logo-dark {
+  margin-bottom: 25px;
+}
+
+.back {
+  padding-left: 52px;
+  margin-bottom: 25px;
+  color: #3f2aff;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.modules-title {
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  color: #3F2AFF;
+}
+
+.cards {
+  font-size: 0;
+}
+
+.card {
+  vertical-align:top;
+  position: relative;
+  display: inline-block;
+  width: 572px;
+  height: 505px;
+  padding-top: 180px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.card:not(:nth-child(2n)) {
+  margin-right: 15px;
+}
+
+.card__first {
+  background-image: url("../img/modules_img_1.jpg");
+  margin-bottom: 25px;
+}
+
+.card__second {
+  background-image: url("../img/modules_img_2.jpg");
+  margin-bottom: 25px;
+}
+
+.card__third {
+  background-image: url("../img/modules_img_3.jpg");
+}
+
+.card__forth {
+  background-image: url("../img/modules_img_4.jpg");
+}
+
+.card-content {
+  padding: 25px;
+}
+
+.card__title {
+  color: #3F2AFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: left;
+}
+
+.card__text {
+
+}
+
+.card__text__items {
+
+}
+
+.card__text__item {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+}
+
+
+.card__number {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #EAEAEA;
+}
+
+.more {
+  width: 275px;
+  height: 70px;
+  padding: 25px 75px;
+  margin: 0 auto;
+  color: #3F2AFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20.7px;
+  text-align: center;
+  border: 2px solid #3F2AFF;
 }

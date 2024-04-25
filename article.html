@@ -33,10 +33,10 @@
   правила:
   </p>
   <ul class="principles-list">
-    <li class="item"><a class="item-link" href="#basic">Основные принципы работы с отступами</a></li>
-    <li class="item"><a class="item-link" href="#first">Первый принцип: отступы от предыдущего к следующему</a></li>
-    <li class="item"><a class="item-link" href="#second">Второй принцип: отступы задаются только между соседями</a></li>
-    <li class="item"><a class="item-link" href="#third">Третий принцип: у последнего элемента группы обнуляем отступ</a></li>
+    <li class="principles-list-item"><a class="principles-list-item-link" href="#basic">Основные принципы работы с отступами</a></li>
+    <li class="principles-list-item"><a class="principles-list-item-link" href="#first">Первый принцип: отступы от предыдущего к следующему</a></li>
+    <li class="principles-list-item"><a class="principles-list-item-link" href="#second">Второй принцип: отступы задаются только между соседями</a></li>
+    <li class="principles-list-item"><a class="principles-list-item-link" href="#third">Третий принцип: у последнего элемента группы обнуляем отступ</a></li>
   </ul>
 </div>
 
@@ -71,7 +71,7 @@
     аналогичные внутренние отступы <b>(padding)</b> у родителя элементов.
     </p>
 
-    <img src="img/2.jpg" height="143" width="873" alt="Показаны правильные отступы сверху">
+    <img class="img-margin-botom" src="img/2.jpg" height="143" width="873" alt="Показаны правильные отступы сверху">
 
     <p class="text ">
     Получается, что блок не может сдвигаться благодаря своим отступам, — он делает это
@@ -85,7 +85,7 @@
     самое касается любой из сторон.
     </p>
 
-    <img src="img/3.jpg" height="259" width="425" alt="Показано отсутствие отступов у последнего элемента">
+    <img class="img-margin-botom" src="img/3.jpg" height="259" width="425" alt="Показано отсутствие отступов у последнего элемента">
 
     <p class="text ">
     У обоих задан отступ снизу. Для первого списка это применимо, потому что есть сосед
@@ -111,12 +111,12 @@
     Теперь всё работает как надо
     </p>
 
-    <img src="img/5.jpg" height="275" width="873" alt="пример использования псевдо-класса :last-child">
+    <img class="img-margin-botom" src="img/5.jpg" height="275" width="873" alt="пример использования псевдо-класса :last-child">
     <p class="text ">
     Чтобы не создавать два селектора, можно написать короче, используя псевдокласс
     :not. Тут мы буквально говорим следующее: «Задай отступ всем ul, но не последнему».
     </p>
-    <img src="img/6.jpg" height="124" width="873" alt="пример использования псевдо-класса :not">
+    <img class="img-margin-botom" src="img/6.jpg" height="124" width="873" alt="пример использования псевдо-класса :not">
 
     <h3 class="third-title ">Типичный пример: отступы в карточке</h3>
 
@@ -131,7 +131,7 @@
     просто: нужно применить принципы, о которых я рассказал.
     </p>
 
-    <img src="img/7.jpg" height="519" width="425" alt="оформление карточки с картинкой, заголовком и описанием">
+    <img class="img-margin-botom" src="img/7.jpg" height="519" width="425" alt="оформление карточки с картинкой, заголовком и описанием">
 
     <p class="text ">
     Нам достаточно обернуть весь текст карточки в блок и задать блоку внутренний отступ
